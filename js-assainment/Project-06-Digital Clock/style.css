@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#222;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+#clock{
+    color:#00ff99;
+    font-size:60px;
+    background:#111;
+    padding:20px 40px;
+    border-radius:10px;
+    letter-spacing:3px;
+    box-shadow:0 0 15px rgba(0,255,153,.5);
+}
